@@ -1,0 +1,16 @@
+.main-transition {
+  &-enter-active,
+  &-leave-active {
+    transition: transform $animation-duration;
+    transition-timing-function: cubic-bezier(.75, 0, .5, 1);
+  }
+
+  &-enter,
+  &-leave-to {
+    transform: translateY(-300px);
+  }
+
+  &-move {
+    transition: transform $animation-duration;
+  }
+}
