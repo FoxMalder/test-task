@@ -1,4 +1,7 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/test-task/'
+    : '/',
   devServer: {
     proxy: "http://api.tvmaze.com/",
     headers: {
