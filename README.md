@@ -12,6 +12,8 @@ tvmaze.com.
 3. Выдача результатов поиска должна содержать картинки, краткое содержание и ссылку на страницу
 сериала.
 
+[Демо](https://foxmalder.github.io/test-task/)
+
 ## Project setup
 ```
 npm install
